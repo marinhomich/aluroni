@@ -1,4 +1,6 @@
 @import "styles/variaveis";
+@import "styles/breakpoints";
+
 
 .menu{
   padding: 20px $padding-horizontal;
@@ -17,5 +19,11 @@
     font-size: 5rem;
     min-width: 400px;
     width: 40%;
+  }
+}
+
+.cardapio{
+  &__titulo{
+
   }
 }
